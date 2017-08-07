@@ -5,9 +5,7 @@ library(Rtsne)
 library(ggplot2)
 
 data(iris)
-dim(iris)
 
-summary(iris)
 
 iris$Petal.Length = log(iris$Petal.Length)
 iris$Petal.Width = log(iris$Petal.Width)
